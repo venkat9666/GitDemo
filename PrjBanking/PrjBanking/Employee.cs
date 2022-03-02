@@ -16,12 +16,16 @@ namespace PrjBanking
 
         public void GetEmployee()
         {
+            Console.WriteLine("Enter the Id");
+            Id=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter your Name");
+            Name=Console.ReadLine();
+
 
         }
         public void DisplayEmployee()
         {
-
-
+            Console.WriteLine("Employee Id{0}", Id);
         }
 
     }
